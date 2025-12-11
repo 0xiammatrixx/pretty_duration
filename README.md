@@ -1,4 +1,4 @@
-# pretty_duration
+# format_duration_iam
 
 A tiny Dart utility for formatting Duration objects into clean, human-friendly strings.
 
@@ -16,12 +16,12 @@ A tiny Dart utility for formatting Duration objects into clean, human-friendly s
 
 ## 📌 Usage
 ```
-import 'package:pretty_duration/pretty_duration.dart';
+import 'package:format_duration_iam/format_duration_iam.dart';
 
 void main() {
-  print(prettyDuration(Duration(hours: 2, minutes: 14))); 
-  print(prettyDuration(Duration(seconds: 45)));
-  print(prettyDuration(Duration(days: 1, hours: 3), short: false));
+  print(formatDuration(Duration(hours: 2, minutes: 14))); 
+  print(formatDuration(Duration(seconds: 45)));
+  print(formatDuration(Duration(days: 1, hours: 3), short: false));
 }
 ```
 
