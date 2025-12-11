@@ -1,4 +1,4 @@
-name: pretty_duration
+name: format_duration_iam
 description: "A tiny utility for converting Duration objects into pretty, human-readable formats."
 version: 0.0.1
 homepage: https://github.com/0xIammatrixx/pretty_duration

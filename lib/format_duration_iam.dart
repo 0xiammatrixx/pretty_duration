@@ -1,13 +1,6 @@
-library pretty_duration;
+library format_duration_iam;
 
-/// Converts a [Duration] into a human-readable string.
-///
-/// Example:
-/// ```dart
-/// prettyDuration(Duration(hours: 2, minutes: 45)); // "2h 45m"
-/// prettyDuration(Duration(days: 1, hours: 3), short: false); // "1 day 3 hours"
-/// ```
-String prettyDuration(Duration duration, {bool short = true}) {
+String formatDuration(Duration duration, {bool short = true}) {
   if (duration.inSeconds < 1) return short ? "0s" : "0 seconds";
 
   final days = duration.inDays;
